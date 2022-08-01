@@ -3,4 +3,4 @@ apiVersion: apps/v1
 metadata:
   name: redis-slave
 spec:
-  replicas: 2
+  replicas: 0

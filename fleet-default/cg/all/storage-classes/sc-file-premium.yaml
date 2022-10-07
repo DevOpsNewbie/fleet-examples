@@ -1,0 +1,10 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: file-premium
+parameters:
+  skuName: Premium_ZRS
+provisioner: kubernetes.io/azure-file
+reclaimPolicy: Delete
+volumeBindingMode: Immediate
+allowVolumeExpansion: false

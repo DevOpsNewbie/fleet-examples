@@ -1,3 +1,0 @@
-targetCustomizations:
-- name: all
-  clusterGroup: all

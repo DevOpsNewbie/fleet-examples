@@ -91,7 +91,7 @@ spec:
           spec:
             containers:
             - name: php-redis
-              image: gcr.io/google-samples/gb-frontend:v4
+              image: gcr.io/google-samples/gb-frontend:v5
               resources:
                 requests:
                   cpu: 100m
@@ -136,7 +136,7 @@ spec:
           spec:
             containers:
             - name: master
-              image: k8s.gcr.io/redis:e2e
+              image: registry.k8s.io/redis:e2e
               resources:
                 requests:
                   cpu: 100m
